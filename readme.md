@@ -44,3 +44,6 @@ STRING_ENUM_DECLARE(Week,List)
 //in .cpp
 STRING_ENUM_DEFINE(Week,List)
 ```
+
+# Note
+The number of enum members is limited to 200.
