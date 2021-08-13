@@ -39,8 +39,8 @@ You can separate the definition and declaration:
 ```c++
 //in .h
 #define List Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
-#define STRING_ENUM_DECLARE(Week,List)
+STRING_ENUM_DECLARE(Week,List)
 
 //in .cpp
-#define STRING_ENUM_DEFINE(Week,List)
+STRING_ENUM_DEFINE(Week,List)
 ```
